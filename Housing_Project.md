@@ -20,22 +20,11 @@ Our dataset contains house sale prices for King County. It includes homes sold a
 
 ## Methods
 
-We mainly stuck to the observations of films in the past 5 years in order to stay relevant to today's trends. We observed mainly how different factors affected a film's profitability and popularity which are the two main driving sources behind any investment. A film's profitability is a large short-term profit but its popularity means more payments for domestic and international licensing fees meaning there is more long term profit to be made.
+We mainly observed the distributions of sales prices, grades and conditions and explored their relationships to one another. We also utitilzied two sample T-Tests in order to determine whether different groups were statistically significant from one another and whether the significance was large enough to justify the renovation.
 
 ## Result 1
-
-We have two main key results which are that there is a preferential budget range for movies that are both highly rated and popular
 
 ### Visual 1
-![budget_sd](https://user-images.githubusercontent.com/77891283/113523642-ef653900-9576-11eb-9cd0-43f22f14e078.png)
-
-## Result 1
-Our second main result is that the genres performing best individually and in combination are action, adventure, and sci-fi
-
-### Visual 2
-![genre_ind](https://user-images.githubusercontent.com/77891283/113523656-158ad900-9577-11eb-8e14-d7ba4ac637b3.png)
-
-![genre_pairs](https://user-images.githubusercontent.com/77891283/113523659-1d4a7d80-9577-11eb-8fef-89c56c9a2ba6.png)
 
 ## Conclusions
 
