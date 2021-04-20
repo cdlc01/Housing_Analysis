@@ -1,6 +1,6 @@
-# Microsoft_Film_Project
+# Housing_Project
 
-**Authors**: George Ogden, Christopher de la Cruz
+**Authors**: David Tian, Christopher de la Cruz
 
 ## Overview
 
@@ -8,8 +8,7 @@ Our analysis currently reflects what types of films are doing best at the box of
 
 ## Business Problem
 
-Microsoft is creating a movie studio and wants the rundown on what types of movies they should be creating. According to a 2016 poll among US adults, the most important factors in determining what to watch were dependant on genre, cast, relatable storylines, and films that were recommended (weight was given first to reccomendations by friends/family and then to other films that were related). We chose to mainly focus on what genres perform best, what synopsises performed best, how budget affects a film's popularity and what time of year of is best for release. The answers to these questions will result in films that are profitable, popular, and relatable. We are ignoring cast for the time being because we believe that that factor is too highly specific to the movie's type and that the answer will change for each genre. ![Influential_Factors](https://user-images.githubusercontent.com/77891283/113523260-b926ba00-9574-11eb-8ff4-5eef97826ad8.png)
-
+We are a Seattle-based real estate agency that specializes in helping prospective real estate sellers make the best possible choices to increase the value of their homes before putting them on the market. Among the homes in Seattle, Washington, homes are graded by both their grade (1 - 10; 10 being the highest possible condition) and condition (1 - 5; 5 being the highest quality condition). Our project aims to look at what types of renovations are worth the improvement in price (for example if a home has a grade of 1, is the change in selling price worth it to renovate to a 3 or does it have to renovate to a 5 in order to be worth the renovation?). We chose to focus on renovations because there are the most straight-forward changes that you can make to a home (for example, you cannot simply add a waterfront view to a home).
 
 ## Data
 
