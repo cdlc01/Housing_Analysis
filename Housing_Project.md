@@ -4,7 +4,7 @@
 
 ## Overview
 
-Our analysis currently reflects what types of films are doing best at the box office in 2021. We take a deep dive into exploring movie profits and popularity and their relationship with other film factors. Our project currently shows that action, adventure, and sci-fi movies are performing best and that the most profitable plots have familiar (and familial) themes and high stakes. This analysis can be used by any film studio currently debating what kinds of movies they should be making
+Our analysis currently reflects what types of renovations (based on a home's grade and condition) are most worth the increase in selling price. We take a deep dive into the specific relationship that grade and price share with sales price. Our project currently shows that DECIDE ON A MAIN CONCLUSION WITH DAVID. This analysis can be used by any real estate agency or prospective home seller to guide them on what kinds of renovations they should be making.
 
 ## Business Problem
 
@@ -12,15 +12,11 @@ We are a Seattle-based real estate agency that specializes in helping prospectiv
 
 ## Data
 
-We chose to build our own dataset through IMDb via IMDbPY, a python module which allows you to directly retrieve data from the IMDb website.  Ultimately, our base datasets included 2,475 films from IMDb of the top grossing movies for each year between 2014 and 2019.  This dataset included revenue--domestic and international--and 8 factors that we were interested in analyzing, including:
+Our dataset contains house sale prices for King County. It includes homes sold and the characteristics of those homes. For the sake of our regression model, we limited our houses specifically to Seattle and specifically looked closely at:
 
-- Budget<br>
-- Rating<br>
-- Vote Count<br>
-- Genre<br>
-- Plot Synopsis<br>
-- Year<br>
-- Month<br>
+- Price<br>
+- Grade<br>
+- Condition<br>
 
 ## Methods
 
