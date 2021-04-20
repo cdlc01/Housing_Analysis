@@ -1,4 +1,4 @@
-# Housing_Project
+# Housing Selling Prices & Renovation
 
 **Authors**: David Tian, Christopher de la Cruz
 
@@ -63,7 +63,7 @@ These are the next steps we believe we should take:
 
 Please review our full analysis in our Jupyter Notebook (Microsoft_Film_Industry_Analysis.ipynb located in the code folder) or our [Presentation](https://github.com/cdlc01/Microsoft-Film-Industry-Analysis/files/6255838/Powerpoint_film_analysis.pdf)
 
-For any additional questions, please contact **Christopher de la Cruz at cdelacruz2013@gmail.com, George Ogden at george.p.ogden@gmail.com**
+For any additional questions, please contact **Christopher de la Cruz at cdelacruz2013@gmail.com, NEED DAVID'S EMAIL**
 
 ## Repository Structure
 
