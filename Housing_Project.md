@@ -28,46 +28,36 @@ We mainly observed the distributions of sales prices, grades and conditions and 
 
 ## Conclusions
 
-These are our business recommendations for a future film:<br>
+These are our business recommendations regarding renovations done to a house before selling it on the market:
 
-1. We stick to a budget of 12m - 67.6m. The grand majority of films that are popular and perform well are in this range. Higher budgets are justifiable on a case by case scenario (mainly a film designed to be a blockbuster hit)<br>
+Our analysis shows that square footage of the living space is strongly correlated with the price of a house. While we realize that increasing an already-built house's footage may not always be realistic, we've discovered that there is statistical differences in the price of homes depending on it's Grade or Condition rating.
 
-2. Action, Adventure and Sci - Fi are all outperforming all the other genres both individually and combined and we highly recommend doing our first film in one or a combination of these genres.<br>
+For Grade, we're 95% confident of the following: <br>
+- Upgrading homes with a grade of 6 to a 7 can generate a 53K - 77K savings amount.
+- Upgrading homes with a grade of 7 to an 8 can generate a 52K - 78K savings amount.
+- Upgrading homes with a grade of 8 to a 9 can generate a 38K - 65K savings amount.
+- Upgrading homes with a grade of 5 to a 7 can generate a 56K - 81K savings amount.
 
-3. We aim for release during what the film industry calls the "slump months" (Jan - Feb & Aug - Sept). These two periods are when quality of movie releases are at their lowest (due to the month before these periods being considered prime time for mega blockbusters). We recommend aiming for a release during one of the slump months as a) we are not equipped to compete with an established blockbuster and 2) there will be less competition, giving our film a higher chance of standing out
-
-4. Keep all story lines high stakes, with strong familial-like relationships and familiar themes
-
-These are the next steps we believe we should take:
-
-1. Franchises are enormously profitable but almost all already owned by other movie studios. We advise doing a deep dive into any existing unowned franchises and potential for creating our own franchise
-
-2. Each genre and genre combination will require its own personal deep dive into further details such as the current hottest actors and directors in each genre, the runtimes that perform best, audience rating that performs best, etc
-
-3. Our research also showed that the profit for online TV streaming and internet content rivals film profits and we advise doing a special deep dive into also creating online streaming television shows and online content
-![Revenue_Sources](https://user-images.githubusercontent.com/77891283/113523592-6e0da680-9576-11eb-9ba7-5a2333f18165.png)
+For Condition, we're 95% confident of the following: <br>
+- Upgrading homes with a condition of 2 to a 3 can generate a 41K - 55K savings amount.
+- Upgrading homes with a condition of 2 to a 4 can generate a 57K - 71K savings amount.
+- Upgrading homes with a condition of 2 to a 5 can generate a 75K - 90K savings amount.
+- Upgrading homes with a condition of 3 to a 4 can generate a 8K - 23K savings amount.
+- Upgrading homes with a condition of 3 to a 5 can generate a 27K - 42K savings amount.
+- Upgrading homes with a condition of 4 to a 5 can generate a 11K - 26K savings amount.
 
 
 ## For More Information
 
-Please review our full analysis in our Jupyter Notebook (Microsoft_Film_Industry_Analysis.ipynb located in the code folder) or our [Presentation](https://github.com/cdlc01/Microsoft-Film-Industry-Analysis/files/6255838/Powerpoint_film_analysis.pdf)
+Please review our full analysis in our Jupyter Notebook (RE-NAME NOTEBOOK) or our NEED PRESENTATION LINK
 
 For any additional questions, please contact **Christopher de la Cruz at cdelacruz2013@gmail.com, NEED DAVID'S EMAIL**
 
 ## Repository Structure
 
 ```
-├── __init__.py                                  <- .py file that signals to python these folders contain packages
 ├── README.md                                    <- The top-level README for reviewers of this project
 ├── Powerpoint_film_analysis.pdf                 <- PDF version of project presentation
-├── code
-│   ├── __init__.py                              <- .py file that signals to python these folders contain packages
-│   ├── visualizations.py                        <- .py script to create finalized versions of visuals for project
-│   ├── Data_Cleaning.py                         <- .py script used to pre-process and clean data from the IMDbpy module
-│   ├── Dataframe_Cleaning.py                    <- .py script used to clean the dataframe directly
-│   ├── Data_Collection-DO NOT RUN.py            <- .py script used to gather data using the IMDbpy module. The process takes a full day. We advise not running
-│   ├── Analysis.py                              <- .py script for specific genre analysis (courtesy of George)
-│   ├── eda_notebook.ipynb                       <- Notebook containing data exploration
 |   ├── Microsoft_Film_Industry_Analysis.ipynb   <- Narrative documentation of analysis in Jupyter notebook 
 |       ├── data                                 <- Both sourced externally and generated from code
 └── images                                       <- Both sourced externally and generated from code
