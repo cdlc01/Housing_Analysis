@@ -4,7 +4,7 @@
 
 ## Overview
 
-Our analysis currently reflects what types of renovations (based on a home's grade and condition) are most worth the increase in selling price. We take a deep dive into the specific relationship that grade and price share with sales price. Our project currently shows that DECIDE ON A MAIN CONCLUSION WITH DAVID. This analysis can be used by any real estate agency or prospective home seller to guide them on what kinds of renovations they should be making.
+Our analysis currently reflects what types of renovations (based on a home's grade and condition) are most worth the increase in selling price. We take a deep dive into the specific relationship that grade and price share with sales price. Our project currently shows that there are specific grade and condition relationships that do make the renovations worth the cost and about how much you can expect to save. We also found that the square footage of living spaces is one of the best indicators of price when doing a very general modeling of factors that affect home prices. This analysis can be used by any real estate agency or prospective home seller to guide them on what kinds of renovations they should be making.
 
 ## Business Problem
 
@@ -12,11 +12,13 @@ We are a Seattle-based real estate agency that specializes in helping prospectiv
 
 ## Data
 
-Our dataset contains house sale prices for King County. It includes homes sold and the characteristics of those homes. For the sake of our regression model, we limited our houses specifically to Seattle and specifically looked closely at:
+Our dataset contains house sale prices for King County. It includes homes sold and the characteristics of those homes. For the sake of our grade & condition regression model, we limited our houses specifically to Seattle and specifically looked closely at:
 
 - Price<br>
 - Grade<br>
 - Condition<br>
+
+We do also include further columns when modeling what homes might sell for in general in Seattle as well as a a very general model of what a home might sell for even outside of Seattle
 
 ## Methods
 
@@ -24,7 +26,12 @@ We mainly observed the distributions of sales prices, grades and conditions and 
 
 ## Result 1
 
+Our model shows that not all renovations generate enough savings to necessarily be worth the price and labor (we showcase the relationships in our conclusion). Here are the results of our grade & condition model.
+
 ### Visual 1
+
+![gradeconmodel](https://user-images.githubusercontent.com/77891283/115739327-d375db80-a35b-11eb-9add-fbe1051d8b0d.png)
+
 
 ## Conclusions
 
