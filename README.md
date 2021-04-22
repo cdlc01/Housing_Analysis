@@ -58,7 +58,7 @@ For Condition, we're 95% confident of the following: <br>
 
 Please review our full analysis in our Jupyter Notebook (RE-NAME NOTEBOOK) or our NEED PRESENTATION LINK
 
-For any additional questions, please contact **Christopher de la Cruz at cdelacruz2013@gmail.com, NEED DAVID'S EMAIL**
+For any additional questions, please contact **Christopher de la Cruz at cdelacruz2013@gmail.com, David Tian at dt1086@stern.nyu.edu**
 
 ## Repository Structure
 
