@@ -62,9 +62,9 @@ For any additional questions, please contact **Christopher de la Cruz at cdelacr
 ## Repository Structure
 
 ```
-├── README.md                                    <- The top-level README for reviewers of this project
-├── Powerpoint_film_analysis.pdf                 <- PDF version of project presentation
-|   ├── Microsoft_Film_Industry_Analysis.ipynb   <- Narrative documentation of analysis in Jupyter notebook 
-|       ├── data                                 <- Both sourced externally and generated from code
-└── images                                       <- Both sourced externally and generated from code
+├── README.md                                         <- The top-level README for reviewers of this project
+├── Phase2 Project.pdf                                <- PDF version of project presentation
+├── Real Estate Recommendations Analysis.ipynb        <- Narrative documentation of analysis in Jupyter notebook 
+├── data                                              <- Both sourced externally and generated from code     
+└── images                                            <- Both sourced externally and generated from code
 ```
