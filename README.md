@@ -43,7 +43,6 @@ For Grade, we're 95% confident of the following: <br>
 - Upgrading homes with a grade of 6 to a 7 can generate a 53K - 77K savings amount.
 - Upgrading homes with a grade of 7 to an 8 can generate a 52K - 78K savings amount.
 - Upgrading homes with a grade of 8 to a 9 can generate a 38K - 65K savings amount.
-- Upgrading homes with a grade of 5 to a 7 can generate a 56K - 81K savings amount.
 
 For Condition, we're 95% confident of the following: <br>
 - Upgrading homes with a condition of 2 to a 3 can generate a 41K - 55K savings amount.
@@ -56,7 +55,7 @@ For Condition, we're 95% confident of the following: <br>
 
 ## For More Information
 
-Please review our full analysis in our Jupyter Notebook (RE-NAME NOTEBOOK) or our NEED PRESENTATION LINK
+Please review our full analysis in our Jupyter Notebook or our presentation: https://docs.google.com/presentation/d/1SX5UJGmCgV2di-Wo5SZsfECan8wcSG7Y7HiPm24aCQs/edit#slide=id.gd0341dc497_0_842
 
 For any additional questions, please contact **Christopher de la Cruz at cdelacruz2013@gmail.com, David Tian at dt1086@stern.nyu.edu**
 
