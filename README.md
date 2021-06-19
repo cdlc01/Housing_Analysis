@@ -1,66 +1,70 @@
-# Phase 2 Project
+# Housing Selling Prices & Renovation
 
-Another module down--you're almost half way there!
+**Authors**: David Tian, Christopher de la Cruz
 
-![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-phase-2-project-campus/master/halfway-there.gif)
+## Overview
 
-All that remains in Phase 2 is to put our newfound data science skills to use with a large project! This project should take 20 to 30 hours to complete.
+Our analysis currently reflects what types of renovations (based on a home's grade and condition) are most worth the increase in selling price. We take a deep dive into the specific relationship that grade and price share with sales price. Our project currently shows that there are specific grade and condition relationships that do make the renovations worth the cost and about how much you can expect to save. We also found that the square footage of living spaces is one of the best indicators of price when doing a very general modeling of factors that affect home prices. This analysis can be used by any real estate agency or prospective home seller to guide them on what kinds of renovations they should be making.
 
-## Project Overview
+## Business Problem
 
-For this project, you will use regression modeling to analyze house sales in a northwestern county.
+We are a Seattle-based real estate agency that specializes in helping prospective real estate sellers make the best possible choices to increase the value of their homes before putting them on the market. Among the homes in Seattle, Washington, homes are graded by both their grade (1 - 10; 10 being the highest possible condition) and condition (1 - 5; 5 being the highest quality condition). Our project aims to look at what types of renovations are worth the improvement in price (for example if a home has a grade of 1, is the change in selling price worth it to renovate to a 3 or does it have to renovate to a 5 in order to be worth the renovation?). We chose to focus on renovations because there are the most straight-forward changes that you can make to a home (for example, you cannot simply add a waterfront view to a home).
 
-### The Data
+## Data
 
-This project uses the King County House Sales dataset, which can be found in  `kc_house_data.csv` in the data folder in this repo. The description of the column names can be found in `column_names.md` in the same folder. As with most real world data sets, the column names are not perfectly described, so you'll have to do some research or use your best judgment if you have questions about what the data means.
+Our dataset contains house sale prices for King County. It includes homes sold and the characteristics of those homes. For the sake of our grade & condition regression model, we limited our houses specifically to Seattle and specifically looked closely at:
 
-It is up to you to decide what data from this dataset to use and how to use it. If you are feeling overwhelmed or behind, we recommend you ignore some or all of the following features:
+- Price<br>
+- Grade<br>
+- Condition<br>
 
-* date
-* view
-* sqft_above
-* sqft_basement
-* yr_renovated
-* zipcode
-* lat
-* long
-* sqft_living15
-* sqft_lot15
+We do also include further columns when modeling what homes might sell for in general in Seattle as well as a a very general model of what a home might sell for even outside of Seattle
 
-### Business Problem
+## Methods
 
-It is up to you to define a stakeholder and business problem appropriate to this dataset.
+We mainly observed the distributions of sales prices, grades and conditions and explored their relationships to one another. We also utitilzied two sample T-Tests in order to determine whether different groups were statistically significant from one another and whether the significance was large enough to justify the renovation.
 
-If you are struggling to define a stakeholder, we recommend you complete a project for a real estate agency that helps homeowners buy and/or sell homes. A business problem you could focus on for this stakeholder is the need to provide advice to homeowners about how home renovations might increase the estimated value of their homes, and by what amount.
+## Result 1
 
-## Deliverables
+Our model shows that not all renovations generate enough savings to necessarily be worth the price and labor (we showcase the relationships in our conclusion). Here are the results of our grade & condition model.
 
-There are three deliverables for this project:
+### Visual 1
 
-* A **GitHub repository**
-* A **Jupyter Notebook**
-* A **non-technical presentation**
+![gradeconmodel](https://user-images.githubusercontent.com/77891283/115739327-d375db80-a35b-11eb-9add-fbe1051d8b0d.png)
 
-Review the "Project Submission & Review" page in the "Milestones Instructions" topic for instructions on creating and submitting your deliverables. Refer to the rubric associated with this assignment for specifications describing high-quality deliverables.
 
-### Key Points
+## Conclusions
 
-* **Your deliverables should explicitly address each step of the data science process.** Refer to [the Data Science Process lesson](https://github.com/learn-co-curriculum/dsc-data-science-processes) from Topic 19 for more information about process models you can use.
+These are our business recommendations regarding renovations done to a house before selling it on the market:
 
-* **Your Jupyter Notebook should demonstrate an iterative approach to modeling.** This means that you begin with a basic model, evaluate it, and then provide justification for and proceed to a new model. After you finish refining your models, you should provide 1-3 paragraphs discussing your final model - this should include interpreting at least 3 important parameter estimates or statistics.
+Our analysis shows that square footage of the living space is strongly correlated with the price of a house. While we realize that increasing an already-built house's footage may not always be realistic, we've discovered that there is statistical differences in the price of homes depending on it's Grade or Condition rating.
 
-* **Based on the results of your models, your notebook and presentation should discuss at least two features that have strong relationships with housing prices.**
+For Grade, we're 95% confident of the following: <br>
+- Upgrading homes with a grade of 6 to a 7 can generate a 53K - 77K savings amount.
+- Upgrading homes with a grade of 7 to an 8 can generate a 52K - 78K savings amount.
+- Upgrading homes with a grade of 8 to a 9 can generate a 38K - 65K savings amount.
 
-## Getting Started
+For Condition, we're 95% confident of the following: <br>
+- Upgrading homes with a condition of 2 to a 3 can generate a 41K - 55K savings amount.
+- Upgrading homes with a condition of 2 to a 4 can generate a 57K - 71K savings amount.
+- Upgrading homes with a condition of 2 to a 5 can generate a 75K - 90K savings amount.
+- Upgrading homes with a condition of 3 to a 4 can generate a 8K - 23K savings amount.
+- Upgrading homes with a condition of 3 to a 5 can generate a 27K - 42K savings amount.
+- Upgrading homes with a condition of 4 to a 5 can generate a 11K - 26K savings amount.
 
-Start on this project by forking and cloning [this project repository](https://github.com/learn-co-curriculum/dsc-phase-2-project) to get a local copy of the dataset.
 
-We recommend structuring your project repository similar to the structure in [the Phase 1 Project Template](https://github.com/learn-co-curriculum/dsc-project-template). You can do this either by creating a new fork of that repository to work in or by building a new repository from scratch that mimics that structure.
+## For More Information
 
-## Project Submission and Review
+Please review our full analysis in our Jupyter Notebook or our presentation: https://docs.google.com/presentation/d/1SX5UJGmCgV2di-Wo5SZsfECan8wcSG7Y7HiPm24aCQs/edit#slide=id.gd0341dc497_0_842
 
-Review the "Project Submission & Review" page in the "Milestones Instructions" topic to learn how to submit your project and how it will be reviewed. Your project must pass review for you to progress to the next Phase.
+For any additional questions, please contact **Christopher de la Cruz at cdelacruz2013@gmail.com, David Tian at dt1086@stern.nyu.edu**
 
-## Summary
+## Repository Structure
 
-This project will give you a valuable opportunity to develop your data science skills using real-world data. The end-of-phase projects are a critical part of the program because they give you a chance to bring together all the skills you've learned, apply them to realistic projects for a business stakeholder, practice communication skills, and get feedback to help you improve. You've got this!
+```
+├── README.md                                         <- The top-level README for reviewers of this project
+├── Phase2 Project.pdf                                <- PDF version of project presentation
+├── Real Estate Recommendations Analysis.ipynb        <- Narrative documentation of analysis in Jupyter notebook 
+├── data                                              <- Both sourced externally and generated from code     
+└── images                                            <- Both sourced externally and generated from code
+```
